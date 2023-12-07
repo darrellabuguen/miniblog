@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+body.home {
+
+    background-color: #ebebeb;
+}
+
+header {
+    padding: 1rem;
+    background-color: #4267B2;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo {
+    font-size: 2rem;
+}
+
+.li-con {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    margin: auto;
+    margin-top: 0.5rem;
+    background-color: white;
+    box-shadow: 2px 2px 5px 2px #dcdcdc;
+}
+
+.upper {
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #202020;
+    border-bottom: 1px solid gainsboro;
+}
+
+.btn {
+    padding: 0.8rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px 1px #dcdcdc;
+    cursor: pointer;
+}
+
+.green {
+    background-color: #26a69a;
+    color: white;
+}
+
+.green-edit {
+    background-color: #2e7d32;
+    color: white;
+}
+
+.red {
+    background-color: #c62828;
+    color: white;
+}
+
+.blue {
+    background-color: #2196f3;
+    color: white;
+}
+
+a.orange {
+    color: orange;
+}
+
+.login {
+    padding: 1rem;
+}
+
+.gap {
+    height: 20px;
+}
+
+.input-form {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #b6b6b6;
+}
+
+.card {
+    padding: 1rem;
+    padding-top: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    color: #202020;
+    border-bottom: 1px solid #b6b6b6;
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.option {
+    padding: 1rem;
+    padding-top: 2rem;
+}
+
+.create-con {
+    padding: 1rem;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    margin: auto;
+    box-shadow: 2px 2px 5px 2px #dcdcdc;
+}
+
+.labels {
+    font-size: 0.8rem;
+}
+
+#title {
+    border-bottom: 2px solid #4caf50;
+}
+
+#content {
+    border-bottom: 2px solid #4caf50;
+}
+
+.ltitle {
+    color: gray;
+}
+
+.lcontent {
+    color: gray;
+}
